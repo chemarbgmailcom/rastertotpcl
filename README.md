@@ -6,7 +6,7 @@
 A driver to Toshiba TEC Label printers supporting the TEC Printer Command Language or TPCL,
 version 2.
 
-Converts CUPS Raster graphics along with a supported PPD file into a TPCL graphic ready to
+Converts CUPS raster graphics along with a supported PPD file into a TPCL graphic ready to
 be printed directly. As of yet, there is no support for sending text to the driver.
 
 Conversion includes support for the TPCL TOPIX compression algorithm for reliable and fast
@@ -45,7 +45,7 @@ was being ignored.
 
 ### 2010-05-27 - Initial release
  
-Converted original restertotec file into rastertotpcl.
+Converted original rastertotec file into rastertotpcl.
 Added support for TOPIX compression.
 Now using CUPS raster header 2 for finer control of page sizes.
 Refactoring.
@@ -95,5 +95,5 @@ and show them in the CUPS printer selection screens.
 
 rastertotpcl is based on the rastertotec driver written by Patick Kong (SKE s.a.r.l).
 rastertotec is based on the rastertolabel driver included with the CUPS printing system by Easy Software Products.
-Packaing of rastertotpcl and TOPIX compression was added by Sam Lown (www.samlown.com).
+Packaging of rastertotpcl and TOPIX compression was added by Sam Lown (www.samlown.com).
 
